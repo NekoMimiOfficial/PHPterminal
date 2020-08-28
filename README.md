@@ -7,7 +7,9 @@ its just a proof of concept
 it is made to work on linux (it uses the system command)
 additional commands are needed to be installed
 if you are using debian use
+```bash
 sudo apt install cowsay fortune figlet
+```
 
 i dared my self to create it as a single php file , if that makes it useful
 its based off a neumorphic design
