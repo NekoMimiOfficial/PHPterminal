@@ -29,9 +29,6 @@ you could add users and change the root password
 and you can change where the close button sends you (defaults to whatever index is in the current dir)
 you could also change the default work dir
 
-if you wanna rename it you must also change the FNAME variable
-
-
 you can also add your own commands by creating a file called addonCOM.php and addonOAC.php (more info if you type about in the terminal)
 
 example for addonCOM.php
