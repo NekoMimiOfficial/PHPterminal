@@ -78,7 +78,7 @@ if ($LA == 'test'){$com = 'test("'.$LC[1].'","'.$LC[2].'")';}
 
 3 args
  ```php
-if ($LA == 'zap'){$com = 'zap("'.$LC[1].'","'.$LC[2].'","'.$LC[3].'")';}
+if ($LA == 'test'){$com = 'test("'.$LC[1].'","'.$LC[2].'","'.$LC[3].'")';}
  ```
 and so on
 
