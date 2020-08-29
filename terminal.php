@@ -681,13 +681,6 @@ div.style.display = 'none';
 else {
 div.style.display = 'block';
 }
-var divs = document.getElementById('info');
-if (divs.style.display !== 'none') {
-divs.style.display = 'none';
-}
-else {
-divs.style.display = 'block';
-}
 }
 
 function circ(){
