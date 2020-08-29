@@ -450,7 +450,7 @@ if (file_exists($addonFile)){include $addonFile;}
 ?>
 
 <html>
-<title>CFHS terminal</title>
+<title>Neumorphic php terminal</title>
 <style>
 .out::-webkit-scrollbar {
     background-color: rgba(0,0,0,0);
