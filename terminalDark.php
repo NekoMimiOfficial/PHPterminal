@@ -678,13 +678,6 @@ div.style.display = 'none';
 else {
 div.style.display = 'block';
 }
-var divs = document.getElementById('info');
-if (divs.style.display !== 'none') {
-divs.style.display = 'none';
-}
-else {
-divs.style.display = 'block';
-}
 }
 
 function circ(){
@@ -698,8 +691,6 @@ document.getElementById('dev').style.borderRadius = '16px';
 document.getElementById('max').onclick = max;
 var dive = document.getElementById('upper');
 dive.style.display = 'block';
-var divs = document.getElementById('info');
-divs.style.display = 'block';
 document.getElementById('dev').style.width = '55px';
 document.getElementById('dev').style.height = '22px';
 document.getElementById('min').onclick = norm;
